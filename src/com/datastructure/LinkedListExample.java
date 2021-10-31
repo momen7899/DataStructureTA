@@ -7,7 +7,7 @@ public class LinkedListExample {
         System.out.println("Method A");
         traverse(first);
 
-        System.out.println("Method B");
+        System.out.println("\nMethod B");
         first = methodB();
         traverse(first);
     }
