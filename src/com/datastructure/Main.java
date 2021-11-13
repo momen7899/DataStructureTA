@@ -7,6 +7,8 @@ public class Main {
 
 //        new DoubleAndFloatNumbersProblem().printExamples();
 
-        new LinkedListExample().printExamples();
+//        new LinkedListExample().printExamples();
+
+        new Sudoku().solve();
     }
 }
