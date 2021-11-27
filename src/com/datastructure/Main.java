@@ -1,5 +1,7 @@
 package com.datastructure;
 
+import java.util.Stack;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -7,7 +9,10 @@ public class Main {
 
 //        new DoubleAndFloatNumbersProblem().printExamples();
 
+//        new LinkedListExample().printExamples();
 
-        new Sudoku().solve();
+        new StackManager().useStack();
+
+//        new Sudoku().solve();
     }
 }
