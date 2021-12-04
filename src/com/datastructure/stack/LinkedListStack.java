@@ -1,19 +1,23 @@
-package com.datastructure;
+package com.datastructure.stack;
 
-public class MyStack {
+import com.datastructure.Node;
+
+public class LinkedListStack implements MyStack {
 
     private Node list;
     private int size;
 
+    @Override
     public void push(Node node) {
         // push
         list = new Node(node.getValue(), list);
         size++;
     }
 
+    @Override
     public Node pop() {
         // pop
-        if (empty()) return null;
+        if (isEmpty()) return null;
 
         Node last = list;
         list = list.getNext();
@@ -21,16 +25,19 @@ public class MyStack {
         return last;
     }
 
+    @Override
     public Node peek() {
-        if (empty()) return null;
+        if (isEmpty()) return null;
         return list;
     }
 
+    @Override
     public int size() {
         return size;
     }
 
-    public boolean empty() {
+    @Override
+    public boolean isEmpty() {
         return size == 0;
     }
 

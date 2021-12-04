@@ -1,6 +1,6 @@
 package com.datastructure;
 
-import java.util.Stack;
+import com.datastructure.stack.StackManager;
 
 public class Main {
 
@@ -11,7 +11,11 @@ public class Main {
 
 //        new LinkedListExample().printExamples();
 
-        new StackManager().useStack();
+        StackManager stackManager = new StackManager();
+
+        stackManager.linkedListStack();
+        stackManager.arrayStack();
+        stackManager.arrayListStack();
 
 //        new Sudoku().solve();
     }
