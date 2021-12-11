@@ -1,3 +1,4 @@
+
 # DataStructureTA
 This is a simple repository for University of Kurdistan's students who attends in Data Structure lesson on 2021's autumn semester. Professor of the class is Dr Amanj Khoramyan and I'm his assistant
 
