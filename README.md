@@ -1,5 +1,5 @@
 # DataStructureTA
-This is a simple repository for University of Kurdistan's students who attends in Data Structure lesson on 2022's autumn semester professor of the class is Dr Amanj Khoramyan and I'm his assistant
+This is a simple repository for University of Kurdistan's students who attends in Data Structure lesson on 2021's autumn semester professor of the class is Dr Amanj Khoramyan and I'm his assistant
 
 This repository includes some point that you can learn.
  - [BitWise.java](https://github.com/momen7899/DataStructureTA/blob/main/src/com/datastructure/BitWise.java)  is a class that you can see some examples of working with bit operators in java
